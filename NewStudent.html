@@ -1,0 +1,70 @@
+<html>
+
+<head>
+	<title> Informacion del estudiante </title>
+	<script src="resources/js/jquery-3.2.1.min.js"></script>
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<script src="resources/js/newStudent.js">
+	</script>
+
+</head>
+
+<body>
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label for="inputID" class="col-sm-2 control-label"> ID </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="id">
+			</div>
+		</div>
+
+		<div class="form-group">
+			<label for="inputNombre" class="col-sm-2 control-label"> Nombre </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="nombre">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputNombre" class="col-sm-2 control-label"> Matricula </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="matricula">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputNombre" class="col-sm-2 control-label"> Identificacion </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="identificacion">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputNombre" class="col-sm-2 control-label"> Telefono </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="telefono">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="inputNombre" class="col-sm-2 control-label"> Email </label>
+			<div class="col-sm-10">
+				<input class="form-control" id="email">
+			</div>
+		</div>
+
+		<button type="button" id="agregar-estudiante" class="btn btn-success"> Registrar </button>
+
+	</form>
+	<table class="table table-bordered" border="5" id="estudiantes">
+		<thead>
+			<th>-</th>
+			<th>id </th>
+			<th>nombre </th>
+			<th>matricula </th>
+			<th>identificacion </th>
+			<th>telefono </th>
+			<th>email </th>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<button type="button" id="eliminar-estudiante" class="btn btn-danger"> Eliminar</button>
+</body>
+
+</html>
